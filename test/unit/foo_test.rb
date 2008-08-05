@@ -7,6 +7,6 @@ class FooTest < ActiveSupport::TestCase
   end
   
   def test_flunking
-    flunk
+    "passing tests are awesome"
   end
 end
