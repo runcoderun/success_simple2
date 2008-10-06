@@ -8,3 +8,6 @@ require 'rake/testtask'
 require 'rake/rdoctask'
 
 require 'tasks/rails'
+
+Rake::Task[:default].clear
+task :default => ["test:units", "test:functionals", "test:integration"]
