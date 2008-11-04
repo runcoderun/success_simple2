@@ -5,6 +5,5 @@ class UserTest < ActiveSupport::TestCase
     User.create(:name => "joe")
     User.create(:name => "bob")
     assert_equal 2, User.count
-    flunk
   end
 end
